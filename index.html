@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .mydiv{
+            background-color: rgba(5, 4, 23, 0.827);
+            width:100%;
+            height:900px;
+        }
+        img{
+            width:"90px";
+            height:"90px";
+        }
+    </style>
+</head>
+<body>
+   <div class="mydiv">
+    <button type="button" onclick="document.getElementById('myimage').src='on.png'" >bulb on</button>
+    <img src="off.png" alt="bulb off image" id="myimage">
+    <button type="button" onclick="document.getElementById('myimage').src='off.png'">bulb off</button>
+   </div> 
+</body>
+</html>
